@@ -1,0 +1,7 @@
+FROM centos:8
+
+RUN yum install curl -y
+
+RUN date
+
+RUN yum install gedit -y
